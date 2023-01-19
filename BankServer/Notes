@@ -1,0 +1,67 @@
+                    SERVER CREATION
+
+                Basic Commands
+
+            1.Create package.json - npm init
+            2.Create Nodemodules - 
+                Install Express - npm i express
+
+            Basic Steps
+        
+        1 Creating a folder -(BankServer)
+        2 Create a package.json file( npm init)
+        3 Create a Nodemodules file( npm express)
+        4 create Index.js file
+        5 import express inside Index.js
+        6 create app using Express
+        7 Set up port number
+        8 Resovling Http requests
+        9 Install nodemon  - npm i -g nodemon
+        10 Http Response Code
+            1xx - Information
+            2xx -successful
+            3xx -Redirection
+            4xx - client error
+            5xx - server error
+
+        11 JWT Token - Authentication 
+
+        In simple terms, authentication is the process of verifying who a user is, while authorization is the process of verifying what they have access to.
+
+        To check login or not?
+
+        login -------token generate-------->client---req to deposit+token---->server token check? 
+        
+        Install JWT Token  - jsonwebtoken
+         
+          npm i jsonwebtoken
+
+          To generate a new JWT Token - sign()
+
+        12 Middleware - To verify the token
+
+        -It comes in the middle of the request and response
+        -It also provides access to many functions
+
+            1. Application-level middleware
+            -For Entire application
+
+            2. Router-level middleware
+            -To verify the token 
+            To validate the token - verify()
+
+        13 Database Integration
+            1)Install mongoose - npm i mongoose (For connecting nodejs and mongodb)
+            2)DB connect via mongoose
+            3)Create a model using mongoose
+
+        14)Asynchronous Function Resolving
+            1)Resolving State - then()
+            2)Rejection State - catch()
+
+        15) CORS - Cross origin resource sharing
+            install cors - npm i cors
+            
+
+
+
